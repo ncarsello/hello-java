@@ -29,7 +29,7 @@ public class TestHelloWorld {
   @Test
   public void getMessage2() { // this test is broken - fix it!
     assertNull(fixture);
-    assertEquals("hello world", fixture.getMessage());
+    assertEquals("hello world", fixture.getMessage());//getmessage2???
   }
 
   @Test
